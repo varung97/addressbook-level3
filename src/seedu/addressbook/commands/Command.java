@@ -25,6 +25,12 @@ public abstract class Command {
 
     protected Command() {
     }
+    
+    /**
+     * isMutating
+     * @return true if the command mutates data in the address book, else false
+     */
+    abstract public boolean isMutating();
 
     /**
      * Constructs a feedback message to summarise an operation that displayed a listing of persons.
