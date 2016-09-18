@@ -3,6 +3,10 @@ package seedu.addressbook.storage;
 import seedu.addressbook.data.AddressBook;
 import seedu.addressbook.data.exception.IllegalValueException;
 
+/**
+ * Interface for Storage objects
+ * @author varungupta
+ */
 public interface StorageInterface {
     /**
      * Saves all data to this storage file.
